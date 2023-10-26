@@ -2,6 +2,8 @@ import React from "react";
 import avatar from "./mf-avatar.svg";
 import devices from "./hero-devices.svg";
 import styles from "./Home.module.css";
+import resume from "./Abdullah Mokhtar.pdf";
+import Projects from "../Components/Projects";
 
 const Home = () => {
   return (
@@ -13,6 +15,16 @@ const Home = () => {
             I Code beautifully simple things, and I love what I do.
           </p>
           <img className="my-5" src={avatar} alt="avatar" />
+          <div className={styles.button}>
+            <a
+              href={resume}
+              download="Abdullah Mokhtar"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Download Resume
+            </a>
+          </div>
           <div className="mt-5">
             <img src={devices} className="w-50" alt="devices" />
           </div>
@@ -96,13 +108,22 @@ const Home = () => {
                       ></div>
                     </div>
                   </li>
+                  <li>
+                    <span className="me-3">Git & Github</span>
+                    <div className={styles["percent-container"]}>
+                      <div
+                        className={styles.percent}
+                        style={{ width: "70%" }}
+                      ></div>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="col-md-6">
               <div className="text-start">
                 <h3>Soft Skills</h3>
-                <ul className="list-unstyled">
+                <ul className="list-unstyled ps-3">
                   <li>
                     <span className="me-3">English</span>
                     <div className={styles["percent-container"]}>
@@ -163,6 +184,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Projects />    
     </>
   );
 };

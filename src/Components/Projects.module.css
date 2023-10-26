@@ -1,0 +1,25 @@
+.img:hover img {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+.img:hover .link {
+  top: 38%;
+}
+
+.link {
+  position: absolute;
+  top: -30%;
+  left: 42%;
+  background-color: #6e07f3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background-color: #6f1bdd;
+}
