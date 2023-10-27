@@ -1,17 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import logo from "./logo.png";
+import logo from "../../assets/images/logo.png";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
     <nav class="py-3 navbar navbar-expand-lg">
       <div class="container">
-        <Link to="/" class="navbar-brand">
+        <div class="navbar-brand">
           <div className={styles["img-logo"]}>
             <img src={logo} className="w-100" alt="logo" />
           </div>
-        </Link>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,14 +25,39 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class={`nav-item ${styles.link} me-2`}>
-              <Link to="/projects" class="nav-link">
-                Projects
-              </Link>
+              <a
+                href="mailto:abdullahmokhtr55@gmail.com"
+                class="nav-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
             </li>
-            <li class={`nav-item ${styles.contact}`}>
-              <Link to="/contacts" class="nav-link">
-                Say Hello
-              </Link>
+            <li class={`nav-item ${styles.link} me-2`}>
+              <a
+                href="https://github.com/abdullahmokhtar"
+                class="nav-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li class={`nav-item ${styles.link} me-2`}>
+              <a href="tel:+201094327123" class="nav-link">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </li>
+            <li class={`nav-item ${styles.link} me-2`}>
+              <a
+                href="https://www.linkedin.com/in/abdullah-mokhtar-370b421b3"
+                class="nav-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
