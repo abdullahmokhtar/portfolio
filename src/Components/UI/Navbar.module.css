@@ -7,6 +7,8 @@
   border-radius: 22px;
   padding: 0 10px;
   transition: all 0.3s;
+  width: fit-content;
+  margin-right: 10px;
 }
 
 .link a {
@@ -21,4 +23,24 @@
 
 .link:hover {
   background-color: #6e07f3;
+}
+
+@media (max-width: 480px) {
+  .link:last-child {
+    margin-right: auto;
+  }
+
+  .link:first-child {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .link:last-child {
+    margin-right: auto;
+  }
+
+  .link:first-child {
+    margin-left: auto;
+  }
 }
