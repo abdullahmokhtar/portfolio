@@ -10,10 +10,10 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <section className="p-5">
-      <div className="container text-center ">
+      <div className="container text-center">
         <h2 className="fw-bolder mb-5">My Projects</h2>
         <div className="row gy-2">
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-4">
             <Project
               imgSrc={eCommerce}
               link="https://main--creative-zabaione-ea1348.netlify.app"
@@ -21,7 +21,7 @@ const Projects = () => {
               tools=" HTML & CSS & ReactJs & AXIOS & Bootstrap"
             />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-4">
             <Project
               imgSrc={Arma}
               link="https://gilded-licorice-c760dc.netlify.app"
@@ -29,7 +29,7 @@ const Projects = () => {
               tools="HTML & CSS & ReactJs & Firebase & Bootstrap"
             />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-4">
             <Project
               imgSrc={FoodApp}
               link="https://abdullahmokhtar.github.io/Food-App"
@@ -37,7 +37,7 @@ const Projects = () => {
               tools="HTML & CSS & ReactJs & Firebase"
             />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-4">
             <Project
               imgSrc={Yummy}
               link="https://abdullahmokhtar.github.io/jQuery-site"
@@ -45,7 +45,7 @@ const Projects = () => {
               tools="HTML & CSS & Bootstrap & JS & API & jQuery"
             />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-4">
             <Project
               imgSrc={weather}
               link="https://abdullahmokhtar.github.io/assignments/assignment-11"
@@ -53,7 +53,7 @@ const Projects = () => {
               tools="HTML & CSS & Bootstrap & JS & API"
             />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-4">
             <Project
               imgSrc={Fokir}
               link="https://abdullahmokhtar.github.io/bootstrap-site"

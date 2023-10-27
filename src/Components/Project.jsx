@@ -10,7 +10,10 @@ const Project = ({ imgSrc, link, title, tools }) => {
           Visit
         </a>
       </div>
-      <div className="card-body main-bg text-white fs-4 fw-bold main-bg text-white fs-4 fw-bold">
+      <div
+        className="card-body main-bg text-white fs-4  fw-bold"
+        style={{ height: "160px" }}
+      >
         <p>{title}</p>
         <p className="fs-6">
           <i className="fas fa-tools"></i> {tools}
