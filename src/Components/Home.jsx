@@ -33,18 +33,18 @@ const Home = () => {
       </section>
       <section className={styles.about}>
         <div className="container">
-          <div className="w-75 m-auto">
-            <h2 className="fw-bolder">
+          <div className="w-md-75 py-sm-5 m-auto">
+            <h2 className="fw-bolder fs-md-5">
               Hi, I’m Abdullah Mokhtar. Nice to meet you.
             </h2>
-            <p className="py-1 px-5 fs-5">
+            <p className="py-md-1 py-sm-0 px-0 fs-md-5">
               Enthusiastic full stack developer with a solid understanding of
               both front-end and back-end development. Proficient in HTML, CSS,
               JavaScript, and experienced in frameworks such as React and
-              Node.js and .net . Skilled in building responsive and intuitive user
-              interfaces, as well as developing robust server-side applications.
-              Passionate about creating engaging and user-friendly web
-              experiences.
+              Node.js and .net . Skilled in building responsive and intuitive
+              user interfaces, as well as developing robust server-side
+              applications. Passionate about creating engaging and user-friendly
+              web experiences.
             </p>
           </div>
         </div>
