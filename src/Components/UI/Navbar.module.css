@@ -17,6 +17,10 @@
   color: #6e07f3;
 }
 
+.link a:visited{
+  color: #6e07f3;
+}
+
 .link:hover a {
   color: #fff;
 }

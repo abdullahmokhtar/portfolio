@@ -49,7 +49,7 @@ const Navbar = () => {
                 <i class="fa-solid fa-phone"></i>
               </a>
             </li>
-            <li class={`nav-item ${styles.link}  me-sm-auto  my-2`}>
+            <li class={`nav-item ${styles.link}   my-2`}>
               <a
                 href="https://www.linkedin.com/in/abdullah-mokhtar-370b421b3"
                 class="nav-link"
@@ -57,6 +57,16 @@ const Navbar = () => {
                 rel="noreferrer"
               >
                 <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li class={`nav-item ${styles.link}  me-sm-auto  my-2`}>
+              <a
+                href="https://www.hackerrank.com/profile/abdullahmokhtr55"
+                class="nav-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fab fa-hackerrank"></i>
               </a>
             </li>
           </ul>

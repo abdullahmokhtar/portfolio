@@ -13,7 +13,7 @@ const Home = () => {
         <div className="pt-2 text-center">
           <h1 className={styles["main-heading"]}>Fullstack Web Developer</h1>
           <p className={`${styles.description} my-3`}>
-            I Code beautifully simple things, and I love what I do.
+            The computer was born to solve problems that did not exist before.
           </p>
           <img className="my-5" src={avatar} alt="avatar" />
           <div className={styles.button}>
