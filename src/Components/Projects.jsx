@@ -24,7 +24,7 @@ const Projects = () => {
           <div className="col-md-6 col-lg-4">
             <Project
               imgSrc={Arma}
-              link="https://gilded-licorice-c760dc.netlify.app"
+              link="https://armajob.netlify.app"
               title="Online Job Application"
               tools="HTML & CSS & ReactJs & Firebase & Bootstrap"
             />
